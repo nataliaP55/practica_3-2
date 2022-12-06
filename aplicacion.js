@@ -8,19 +8,11 @@ const Fuego = require("./Fuego");
 const Bombero= require("./Bombero");
 
 //identidad
-//const fuegoInicial = new Fuego ();
+
 const bomberoUno= new Bombero ();
 const bomberoDos = new Bombero ();
 const incendio= new Fuego();
 
-/* console.log(bomberoUno.quienEsElBomberoJoven());
-console.log(bomberoDos.quienEsElBomberoExperimentado()); */
-
-/* bomberoUno.miNombreEs("juan");
-bomberoDos.miNombreEs("pedro"); */
-
-/* console.log(bomberoUno.quienEsElBomberoJoven());
-console.log(bomberoDos.quienEsElBomberoExperimentado()); */
 
 bomberoUno.setNombre("juan");
 bomberoDos.setNombre("pedro");
@@ -28,12 +20,6 @@ bomberoDos.setNombre("pedro");
 console.log(bomberoUno.quienApagoElFuego());
 console.log(bomberoDos.quienApagoElFuego());
 
-//bomberoUno.apagaEl(incendio);
+
 bomberoUno.intentaApagarElFuego(incendio);
 bomberoDos.intentaApagarElFuego(incendio);
-/* juan.ahoraTieneLaPelota("Juan");
-//juan.decimeSiTenesLaPelota ();
-console.log( juan.quienTieneLaPelota()); 
-
-pedro.recibeLaPelota ("pedro");
-console.log( pedro.pasaleLaPelotaA());  */
